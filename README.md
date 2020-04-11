@@ -2,6 +2,6 @@
 
 Новостное агенство
 
-[Главная страница сайта](https://github.com/ladmiv/news-agency.git "Новостное агенство")
+[Главная страница сайта](https://ladmiv.github.io/news-agency/ "Новостное агенство")
 
 > Html, Css, Jquery
