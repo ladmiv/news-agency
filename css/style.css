@@ -1,0 +1,95 @@
+html {box-sizing: border-box;}
+
+*,
+*::before,
+*::after {box-sizing: inherit;}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.429;
+  color: black;
+
+  background-color: #ebebeb;
+}
+
+body.modal-active {overflow: hidden;}
+
+img {max-width: 100%;}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.visually-hidden {
+  position: absolute !important;
+
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+
+  border: 0 !important;
+
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+
+  overflow: hidden;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fixed-container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
